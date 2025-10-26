@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\SitiosNetCore\BSolidario\Core.Clientes</_PublishTargetUrl>
-    <History>True|2025-10-26T19:10:50.3145178Z||;True|2025-10-25T22:21:40.8842453-05:00||;</History>
+    <History>True|2025-10-26T22:16:57.9180500Z||;True|2025-10-26T15:21:44.5871564-05:00||;True|2025-10-26T14:10:50.3145178-05:00||;True|2025-10-25T22:21:40.8842453-05:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
