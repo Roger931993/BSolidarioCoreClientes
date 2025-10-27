@@ -22,8 +22,7 @@ namespace Core.Clientes.Infrastructure.Extensions
             #endregion
             services.AddHttpClient();
             services.AddHttpContextAccessor();
-            
-            services.AddScoped(typeof(ICatalogService), typeof(CatalogService));
+                        
 
             return services;
         }

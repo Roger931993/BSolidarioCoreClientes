@@ -81,13 +81,13 @@ namespace Core.Clientes.API.Controllers
         [HttpGet("identificacion/{id}")]
         [Permission("ClienteController-GetByIdentificacion")]
         [ProducesResponseType(typeof(GetClienteResponse), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<GetClienteResponse>> GetByIdentificacion(int id)
+        public async Task<ActionResult<GetClienteResponse>> GetByIdentificacion(string id)
         {
             RequestBase<GetClienteRequest> request = new RequestBase<GetClienteRequest>()
             {
                 Request = new GetClienteRequest()
                 {
-                    cliente_id = id,
+                    identificacion = id,
                     TypeGetCliente = TypeGetCliente.ByIdentificacion
                 }
             };
